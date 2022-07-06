@@ -9,5 +9,11 @@ Object.defineProperty(exports, "Modal", {
     return _Modal.Modal;
   }
 });
+Object.defineProperty(exports, "useModal", {
+  enumerable: true,
+  get: function get() {
+    return _Modal.useModal;
+  }
+});
 
-var _Modal = require("./component/Modal");
+var _Modal = require("./Modal");
