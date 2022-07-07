@@ -1,3 +1,4 @@
+// eslint-disable-next-line 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -16,8 +17,7 @@ const Modal = _ref => {
     show,
     setShow,
     title,
-    text,
-    image
+    text
   } = _ref;
   return show && /*#__PURE__*/_react.default.createElement("div", {
     className: "modal"

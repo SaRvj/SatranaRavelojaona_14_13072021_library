@@ -1,7 +1,7 @@
 import React from 'react';
 import './modal.css';
 
-export const Modal = ({ show, setShow, title, text, image }) => {
+export const Modal = ({ show, setShow, title, text }) => {
   return (
     show && (
       <div className="modal">
