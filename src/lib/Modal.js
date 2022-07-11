@@ -1,6 +1,7 @@
 import React from 'react';
 import './modal.css';
 
+/*component used to open and close a modal window*/
 export const Modal = ({ show, setShow, title, text }) => {
   return (
     show && (
